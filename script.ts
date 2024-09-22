@@ -14,6 +14,17 @@ type Phone = {
   print(): void;
 }
 
+const vivo: Phone = {
+  brand: "Vivo",
+  processor: Processor.MEDIATEK,
+  memory: "8GB",
+  color: "Red",
+  print: function(): void {
+    console.log("Brand: " + this.brand + ", Processor: " + this.processor + 
+        ", Memory: " + this.memory + ", Color: " + this.color);
+  }
+};
+
 const jSeries: Phone = {
   brand: "Samsung",
   processor: Processor.EXYNOS,
@@ -40,5 +51,6 @@ const iPhone: Phone = {
   }
 };
 
+vivo.print();
 jSeries.print();
 iPhone.print();
