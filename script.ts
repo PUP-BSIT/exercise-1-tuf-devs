@@ -14,6 +14,18 @@ type Phone = {
   print(): void;
 }
 
+const jSeries: Phone = {
+  brand: "Samsung",
+  processor: Processor.EXYNOS,
+  memory: "16GB",
+  color: "Black",
+  print(){
+    console.log("My " + this.brand + " phone is colored " + this.color + 
+        " that has a RAM of " + this.memory + 
+        " with a processor called " + this.processor);
+  }
+};
+
 const iPhone: Phone = {
   brand: "Apple",
   processor: Processor.APPLE,
@@ -28,4 +40,5 @@ const iPhone: Phone = {
   }
 };
 
-iphone.print();
+jSeries.print();
+iPhone.print();
