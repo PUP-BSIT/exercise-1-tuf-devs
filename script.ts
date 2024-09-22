@@ -3,5 +3,5 @@ enum Processor {
   MEDIATEK = "Mediatek",
   EXYNOS = "Exynos",
   KIRIN = "Kirin",
-  Apple = "Apple A"
+  APPLE = "Apple A"
 }
