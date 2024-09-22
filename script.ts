@@ -13,3 +13,16 @@ type Phone = {
   color: string;
   print(): void;
 }
+
+const vivo: Phone = {
+  brand: "Vivo",
+  processor: Processor.MEDIATEK,
+  memory: "8GB",
+  color: "Red",
+  print: function(): void {
+    console.log("Brand: " + this.brand + ", Processor: " + this.processor + 
+        ", Memory: " + this.memory + ", Color: " + this.color);
+  }
+};
+
+vivo.print();
