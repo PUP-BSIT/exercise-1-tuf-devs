@@ -14,7 +14,7 @@ type Phone = {
   print(): void;
 }
 
-const iphone: Phone = {
+const iPhone: Phone = {
   brand: "Apple",
   processor: Processor.APPLE,
   memory: "8Gb",
