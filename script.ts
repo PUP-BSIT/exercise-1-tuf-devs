@@ -26,4 +26,19 @@ const jSeries: Phone = {
   }
 };
 
+const iPhone: Phone = {
+  brand: "Apple",
+  processor: Processor.APPLE,
+  memory: "8Gb",
+  color: "Black",
+  print: function (): void {
+    console.log ("The Brand of my phone is " + this.brand +
+        ", A Brand that focuses on Security and Good " +
+        "for Photography and my processor is " + this.processor + ".\n" + 
+        "In the shade of " + this.color + " and it has " + this.memory +
+        " Memory good for gaming.");
+  }
+};
+
 jSeries.print();
+iPhone.print();
