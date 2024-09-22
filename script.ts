@@ -5,3 +5,11 @@ enum Processor {
   KIRIN = "Kirin",
   APPLE = "Apple A"
 }
+
+type Phone = {
+  brand: string;
+  processor: Processor;
+  memory: string;
+  color: string;
+  print(): void;
+}
